@@ -1,1 +1,1 @@
-ASM MIPS Programs completed during time of computer architecture class
+Assortment of MARs MIPS programs
