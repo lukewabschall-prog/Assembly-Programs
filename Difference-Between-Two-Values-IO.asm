@@ -1,3 +1,8 @@
+#Issues
+#1. Does not identify operands as optional depending on the operation; also missing the operation types (assembler directive/machine instruction), complete operand types (immediate value/address label), and comment syntax, assembler behavior 
+
+
+
 .data
 string1: .asciiz "Enter x value "
 string2: .asciiz "Enter y value "
