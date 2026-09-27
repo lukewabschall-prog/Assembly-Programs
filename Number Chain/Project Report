@@ -2,7 +2,15 @@ Project Report
 Luke Wabschall
 SE 2340
 
+Number Chain Rules: 
+- Played on a 6x6 board
+- Both players start with a chain of numbers from 1 to 3 from their right corner diagnoally to the middle
+- Chain off of any of your numbers to unblocked adjacnet sqaures with a number one higher than the number chained from
+- Winner is the player with the highest number reached at the end of their chain
+
 Program Description: 
+Game is displayed using a bitmap. Players move validated by checked that number chained from is one less than new number and the square is unblocked. 
+The Player and the program take turns chaining numbers in unblocked adjacent squares until the board is filled. The winner is the player with the highest number reached.
 
 Challenges Faced: 
 
