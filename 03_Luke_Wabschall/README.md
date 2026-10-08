@@ -1,3 +1,5 @@
+Program Description
+
 1) asks the user to input 2 integers X and Y, if the first one is 0, stop; otherwise, stores them in memory locations labeled X and Y, respectively.
 2) asks the user to input a logical operation chosen from (AND, OR, NOT, SLL, SRL)
 3) If the operation is AND or OR, it performs the function, stores the result in the memory location labeled R,
