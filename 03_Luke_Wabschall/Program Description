@@ -1,0 +1,21 @@
+1) asks the user to input 2 integers X and Y, if the first one is 0, stop; otherwise, stores them in memory locations labeled X and Y, respectively.
+2) asks the user to input a logical operation chosen from (AND, OR, NOT, SLL, SRL)
+3) If the operation is AND or OR, it performs the function, stores the result in the memory location labeled R,
+prints out X, Y, and the result R in binary, each in a separate line
+
+Examples:
+Input:
+X = 44783
+Y = 61482
+operation AND
+Output:
+X =   00000000000000001010111011101111
+Y =   00000000000000001111000000101010
+X&Y = 00000000000000001010000000101010
+
+If the operation is NOT, performs NOT X, stores the result in R, prints out X and R in binary on separate lines.
+If the operation is SLL or SRL
+  Prompts the user for how many bit positions to shift (n), performs the shift operation, and stores the result in a memory location labeled R.
+  Prints out X, n, and R on separate lines, X and R in binary.
+
+4) Repeat from step 1 until sequence exited with x = 0
