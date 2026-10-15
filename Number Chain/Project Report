@@ -13,6 +13,14 @@ Game is displayed using a bitmap. Players move validated by checked that number 
 The Player and the program take turns chaining numbers in unblocked adjacent squares until the board is filled. The winner is the player with the highest number reached.
 
 Challenges Faced: 
+Bitmap vs ascii board in console
+How to choose where number goes: use just destination or destination and source?
+Are positions saved and if so in where: saved in an array? how should you change values?
+
+Decisions Made:
+Used a ascii board in the console because bitmap doesn't support numbers inside it so it wouldn't look great.
+Used destination and source despite the extra hassel it makes it easier to program and provides the user more control.
+Positions are saved in an array. 
 
 Lessons Learned: 
 
