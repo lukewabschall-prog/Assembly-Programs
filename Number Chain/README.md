@@ -17,8 +17,10 @@ MARS does not support advanced graphics natively.
 lost
 
 Files:
-drawboard.asm
-inputvalidation.asm
+display_board.asm
+board_data.asm
+main.asm
+user_input.asm
 ...
 
 Timeline: 
